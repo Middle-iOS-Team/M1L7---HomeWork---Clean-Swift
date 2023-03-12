@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F4900D329BDF4F800940DD9 /* TodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4900D229BDF4F800940DD9 /* TodoListTests.swift */; };
+		5F4900D329BDF4F800940DD9 /* TaskManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4900D229BDF4F800940DD9 /* TaskManagerTests.swift */; };
 		F551A17C29B9CF9500C006AF /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551A17B29B9CF9500C006AF /* LoginRouter.swift */; };
 		F551A19229B9CFEB00C006AF /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551A18429B9CFEB00C006AF /* TodoListViewController.swift */; };
 		F551A19329B9CFEB00C006AF /* TodoListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551A18529B9CFEB00C006AF /* TodoListPresenter.swift */; };
@@ -45,7 +45,7 @@
 
 /* Begin PBXFileReference section */
 		5F4900D029BDF4F800940DD9 /* TodoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F4900D229BDF4F800940DD9 /* TodoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListTests.swift; sourceTree = "<group>"; };
+		5F4900D229BDF4F800940DD9 /* TaskManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerTests.swift; sourceTree = "<group>"; };
 		F551A17B29B9CF9500C006AF /* LoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
 		F551A18429B9CFEB00C006AF /* TodoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		F551A18529B9CFEB00C006AF /* TodoListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoListPresenter.swift; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		5F4900D129BDF4F800940DD9 /* TodoListTests */ = {
 			isa = PBXGroup;
 			children = (
-				5F4900D229BDF4F800940DD9 /* TodoListTests.swift */,
+				5F4900D229BDF4F800940DD9 /* TaskManagerTests.swift */,
 			);
 			path = TodoListTests;
 			sourceTree = "<group>";
@@ -289,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F4900D329BDF4F800940DD9 /* TodoListTests.swift in Sources */,
+				5F4900D329BDF4F800940DD9 /* TaskManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
