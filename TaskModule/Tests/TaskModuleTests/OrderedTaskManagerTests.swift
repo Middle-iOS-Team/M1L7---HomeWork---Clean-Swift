@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import TodoList
+@testable import TaskModule
 
 final class OrderedTaskManagerTests: XCTestCase {
 	
@@ -117,19 +117,19 @@ final class MockTaskManager: ITaskManager {
 
 	let stubTasks = StubTasks()
 
-	func allTasks() -> [TodoList.Task] {
+	func allTasks() -> [Task] {
 		return stubTasks.tasks
 	}
 	
-	func completedTasks() -> [TodoList.Task] {
+	func completedTasks() -> [Task] {
 		return stubTasks.tasks.filter { $0.isComplete }
 	}
 	
-	func uncompletedTasks() -> [TodoList.Task] {
+	func uncompletedTasks() -> [Task] {
 		return stubTasks.tasks.filter { !$0.isComplete }
 	}
 	
-	func addTasks(tasks: [TodoList.Task]) {
+	func addTasks(tasks: [Task]) {
 		for task in tasks {
 			stubTasks.tasks.append(task)
 		}
@@ -141,7 +141,7 @@ final class StubTasks {
 	private let taskTwo = RegularTask(title: "bar")
 	private let taskThree = ImportantTask(title: "baz", taskPriority: .low)
 
-	lazy var tasks: [TodoList.Task] = {
+	lazy var tasks: [Task] = {
 		[taskOne, taskTwo, taskThree]
 	}()
 }
