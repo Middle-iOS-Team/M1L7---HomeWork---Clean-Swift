@@ -5,6 +5,8 @@
 //  Created by Kirill Leonov on 20.02.2023.
 //
 
+import TaskModule
+
 protocol ISectionForTaskManagerAdapter {
 	func getSections() -> [Section]
 	func getTasksForSection(section: Section) -> [Task]

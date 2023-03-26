@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import TaskModule
 
 final class TodoListAssembler {
 	func assembly() -> UIViewController {

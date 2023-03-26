@@ -6,10 +6,12 @@
 //
 
 /// Предоставляет список заданий.
-final class TaskManager {
+public final class TaskManager {
+
 	private var taskList = [Task]()
-	
-	
+
+	public init() {}
+
 	/// Список всех заданий.
 	/// - Returns: Массив заданий.
 	public func allTasks() -> [Task] {
